@@ -12,7 +12,6 @@
     "gatsby-plugin-typography": "^1.7.18",
     "gatsby-transformer-sharp": "^1.6.24",
     "react-helmet": "^5.2.0",
-    "react-layout-components": "^3.0.6",
     "typography-theme-sutro": "^0.15.10"
   },
   "keywords": [
