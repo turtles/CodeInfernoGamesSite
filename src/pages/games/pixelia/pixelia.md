@@ -1,5 +1,6 @@
 ---
 path: "/pixelia"
+thumbnail: "./thumb.png"
 title: "Pixelia"
 subtitle: "Abstract arcade shooter with original mechanics!"
 date: "2017-08-10"

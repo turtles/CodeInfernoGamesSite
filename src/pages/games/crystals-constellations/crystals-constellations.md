@@ -1,5 +1,6 @@
 ---
 path: "/crystals-constellations"
+thumbnail: "./thumb.png"
 title: "Crystals Constellations"
 subtitle: "Draw lines through crystals and collect constellations for a cool challenge in this different kind of match 3 game!"
 date: "2017-08-10"

@@ -1,5 +1,6 @@
 ---
 path: "/frozen-moons"
+thumbnail: "./thumb.png"
 title: "Frozen Moons"
 subtitle: "Defend an arctic base on the frozen moon of Jupiter from an invasion of aliens that have laid dormant beneath its crust."
 date: "2017-08-10"

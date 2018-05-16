@@ -1,5 +1,6 @@
 ---
 path: "/cold-circuit"
+thumbnail: "./thumb.png"
 title: "Cold Circuit"
 subtitle: "Infiltrate a rogue robotics research facility and shut it down!"
 date: "2017-08-10"

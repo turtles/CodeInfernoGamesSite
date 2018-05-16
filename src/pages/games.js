@@ -20,7 +20,9 @@ const GamesPage = ({data}) => {
 
           return (
             <GameListItem
+              thumbnail={frontmatter.thumbnail.childImageSharp.resolutions}
               title={frontmatter.title}
+              subtitle={frontmatter.subtitle}
             />
           );
         })
@@ -39,7 +41,15 @@ query GamesQuery {
     edges {
       node {
         frontmatter {
+          thumbnail {
+            childImageSharp {
+              resolutions(width: 480) {
+                ...GatsbyImageSharpResolutions
+              }
+            }
+          }
           title
+          subtitle
           date
         }
       }

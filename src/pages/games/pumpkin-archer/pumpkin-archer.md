@@ -1,5 +1,6 @@
 ---
 path: "/pumpkin-archer"
+thumbnail: "./thumb.png"
 title: "Pumpkin Archer"
 subtitle: "Use archery skills and throwing stars to smash pumpkins!"
 date: "2017-08-10"

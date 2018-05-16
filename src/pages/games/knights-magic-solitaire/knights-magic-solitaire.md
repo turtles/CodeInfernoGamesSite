@@ -1,6 +1,7 @@
 ---
 path: "/knights-magic-solitaire"
-title: "Knights &amp; Magic Solitaire"
+thumbnail: "./thumb.png"
+title: "Knights & Magic Solitaire"
 subtitle: "Addictive TriPeaks solitaire set in a medieval kingdom!"
 date: "2017-08-10"
 ---
