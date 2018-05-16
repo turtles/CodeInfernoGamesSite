@@ -1,11 +1,19 @@
 module.exports = {
   siteMetadata: {
-    title: 'Code Inferno Games',
+    title: `Code Inferno Games`,
   },
   plugins: [
-    'gatsby-plugin-react-helmet',
-    'gatsby-transformer-sharp',
-    'gatsby-plugin-sharp',
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `src`,
+        path: `${__dirname}/src`
+      }
+    },
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-remark`,
+    `gatsby-transformer-sharp`,
     {
       resolve: `gatsby-plugin-typography`,
       options: {

@@ -8,14 +8,10 @@ const ListStyle = {
   flexWrap: 'wrap',
 }
 
-const GameList = () => (
-  <div style={ListStyle}>
-    <GameListItem />
-    <GameListItem />
-    <GameListItem />
-    <GameListItem />
-  </div>
-)
-
-
-export default GameList
+export default ({data}) => {
+  console.log(data);
+  return (
+    <div style={ListStyle}>
+    </div>
+  )
+}

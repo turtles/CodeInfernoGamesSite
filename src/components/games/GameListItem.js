@@ -5,9 +5,12 @@ const ItemStyle = {
   minWidth: '10em',
   minHeight: '3em',
   width: '50%',
+  padding: '1em',
 }
-const GameList = () => (
-  <div style={ItemStyle}>im a leah</div>
+const GameList = ({title}) => (
+  <div style={ItemStyle}>
+    <h3>{title}</h3>
+  </div>
 )
 
 

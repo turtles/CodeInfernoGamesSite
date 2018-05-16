@@ -1,13 +1,49 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-import GameList from '../components/games/GameList';
+import GameListItem from '../components/games/GameListItem';
 
-const GamesPage = () => (
-  <div>
-    <h1>All Games</h1>
-    <GameList/>
-  </div>
-)
+const ListStyle = {
+  display: 'flex',
+  flexWrap: 'wrap',
+};
 
-export default GamesPage
+const GamesPage = ({data}) => {
+  const { edges: games } = data.allMarkdownRemark;
+  return (
+    <div>
+      <h1>All Games</h1>
+      <div style={ListStyle}>
+      {
+        games.map(({node: game})=> {
+          const {frontmatter} = game;
+
+          return (
+            <GameListItem
+              title={frontmatter.title}
+            />
+          );
+        })
+      }
+      </div>
+    </div>
+  );
+};
+
+export default GamesPage;
+
+export const gamesQuery = graphql`
+query GamesQuery {
+  allMarkdownRemark {
+    totalCount
+    edges {
+      node {
+        frontmatter {
+          title
+          date
+        }
+      }
+    }
+  }
+}
+`
