@@ -6,7 +6,7 @@ import Nav from './Nav';
 const Header = ({ siteTitle }) => (
   <div
     style={{
-      background: 'azure',
+      background: 'white',
       marginBottom: '1em',
     }}
   >
