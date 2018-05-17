@@ -20,13 +20,19 @@ const InnerTitleStyle = {
 const SubtitleStyle = {
   marginBottom: '0.4em'
 }
+const DateStyle = {
+  marginBottom: '0.25em'
+}
 
-export default ({title, subtitle, thumbnail, slug}) => {
+export default ({title, subtitle, thumbnail, slug, date, directLink, site}) => {
   return (
     <div style={ItemStyle}>
-      <Img resolutions = {thumbnail} style={{margin:'0 0 1em 0'}} />
-      <Link to={slug}
-        style={TitleStyle}>
+      <Img
+        resolutions = {thumbnail}
+        style={{margin:'0 0 1em 0'}}
+        />
+      <h6 style={DateStyle}>{date}</h6>
+      <Link to={slug} style={TitleStyle}>
         <h3 style={InnerTitleStyle}>{title}</h3>
       </Link>
       <p style={SubtitleStyle}>{subtitle}</p>
@@ -35,7 +41,7 @@ export default ({title, subtitle, thumbnail, slug}) => {
           <Link to={slug}>More Details</Link>
         </div>
         <div style={{flexGrow: '1'}}>
-          <Link to="/games">Play Now (Newgrounds)</Link>
+          <a href={directLink}>Play Now ({site})</a>
         </div>
       </div>
     </div>

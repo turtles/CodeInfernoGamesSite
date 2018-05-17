@@ -12,10 +12,6 @@ date: "2015-8-28"
 
 Break bricks in this arcade brick breaker featuring 100 levels! Encounter cool new brick types, useful powerups, 3 brick themes and 5 level packs!
 
-### Play Now
-
-[Play on Newgrounds](https://www.newgrounds.com/portal/view/662805)
-
 ##### Keywords
 
 Breakout, Arkanoid, Brick Breaker, Arcade
