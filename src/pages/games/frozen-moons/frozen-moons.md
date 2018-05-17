@@ -3,9 +3,15 @@ path: "/frozen-moons"
 thumbnail: "./screenshot.png"
 title: "Frozen Moons"
 subtitle: "Defend an arctic base on the frozen moon of Jupiter from an invasion of aliens that have laid dormant beneath its crust."
-date: "2017-08-10"
+directLink: "https://www.newgrounds.com/portal/view/676963"
+site: "Newgrounds"
+date: "2016-6-26"
 ---
 
-Pandas are really sweet.
+### Description
 
-Here's a video of a panda eating sweets.
+Defend an arctic base on the frozen moon of Jupiter from an invasion of aliens that have laid dormant beneath its crust. A 360 degree shooter built featuring a story-driven campaign and an arena mode! Gain energy and strategically use it on ship upgrades to build the ultimate fighter!
+
+##### Keywords
+
+360 Shooter, Space, Campaign, Story, stage3d

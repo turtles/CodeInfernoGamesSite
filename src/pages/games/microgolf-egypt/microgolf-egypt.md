@@ -3,9 +3,15 @@ path: "/microgolf-egypt"
 thumbnail: "./screenshot.png"
 title: "MicroGolf Egypt"
 subtitle: "3D Mini Golf set in Ancient Egypt with classic topdown game mechanics for up to two players."
-date: "2017-08-10"
+directLink: "https://www.newgrounds.com/portal/view/697551"
+site: "Newgrounds"
+date: "2017-08-06"
 ---
 
-Pandas are really sweet.
+### Description
 
-Here's a video of a panda eating sweets.
+3D Mini Golf set in Ancient Egypt with classic topdown game mechanics for up to two players.
+
+##### Keywords
+
+Mini Golf, Two Player, Egypt

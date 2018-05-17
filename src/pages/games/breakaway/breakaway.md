@@ -3,9 +3,19 @@ path: "/breakaway"
 thumbnail: "./screenshot.png"
 title: "Breakaway"
 subtitle: "Break bricks in this arcade brick breaker featuring 100 levels!"
-date: "2017-08-10"
+directLink: "https://www.newgrounds.com/portal/view/662805"
+site: "Newgrounds"
+date: "2015-8-28"
 ---
 
-Pandas are really sweet.
+### Description
 
-Here's a video of a panda eating sweets.
+Break bricks in this arcade brick breaker featuring 100 levels! Encounter cool new brick types, useful powerups, 3 brick themes and 5 level packs!
+
+### Play Now
+
+[Play on Newgrounds](https://www.newgrounds.com/portal/view/662805)
+
+##### Keywords
+
+Breakout, Arkanoid, Brick Breaker, Arcade

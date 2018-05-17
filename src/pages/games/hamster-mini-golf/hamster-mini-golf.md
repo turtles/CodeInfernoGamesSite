@@ -3,9 +3,13 @@ path: "/hamster-mini-golf"
 thumbnail: "./screenshot.png"
 title: "Hamster Mini Golf"
 subtitle: "Play mini golf with hamsters! Challenge a friend with two player mode! Featuring 11 different hamsters and three themed courses."
-date: "2017-08-10"
+directLink: "http://www.squiglysplayhouse.com/Games/Flash/Sports/HamsterMiniGolf2Player/"
+site: "Squigly's Playhouse"
+date: "2016-2-2"
 ---
 
-Pandas are really sweet.
+Get ready to play a challenging round of Hamster Mini Golf. Play mini golf with hamsters! Challenge a friend with two player mode! Choose the course you'd like to play and the hamster you'd like to play with and set off for a fun golfing adventure!
 
-Here's a video of a panda eating sweets.
+##### Keywords
+
+Golf, Two Player, Mouse Only

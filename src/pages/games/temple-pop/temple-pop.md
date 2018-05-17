@@ -3,9 +3,19 @@ path: "/temple-pop"
 thumbnail: "./screenshot.png"
 title: "Temple Pop"
 subtitle: "Aim, shoot and match orbs in a mysterious ancient temple."
-date: "2017-08-10"
+directLink: "http://www.mindjolt.com/temple-pop.html"
+site: "Mindjolt"
+date: "2012-02-10"
 ---
 
-Pandas are really sweet.
+### Description
 
-Here's a video of a panda eating sweets.
+Aim, shoot and match orbs in a mysterious ancient temple. Launch traps to clear the board faster. Features 4 game modes including a challenge mode!
+
+### Note
+
+This is one of my favorite games. It was designed and built in two weeks, art and code. At the time (2012), I felt I didn't have a lot to show for the many years I've spent working on games, so I wanted to build something that showcased my talent, and in the end, I got a beautiful game with art, music and sound all coming together very well.
+
+##### Tags
+
+Ancient, Puzzle, Bubble, Shooter, Match, Orbs

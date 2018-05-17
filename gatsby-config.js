@@ -22,6 +22,13 @@ module.exports = {
               maxWidth: 960,
             },
           },
+          {
+            resolve: `gatsby-remark-embed-youtube`,
+            options: {
+              width: 800,
+              height: 400
+            },
+          },
         ],
       },
     },
