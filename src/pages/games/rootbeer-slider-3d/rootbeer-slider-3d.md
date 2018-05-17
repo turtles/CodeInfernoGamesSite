@@ -1,6 +1,6 @@
 ---
 path: "/rootbeer-slider-3d"
-thumbnail: "./thumb.png"
+thumbnail: "./screenshot.png"
 title: "Rootbeer Slider 3D"
 subtitle: "Slide rootbeer and collect all the stars before reaching the finish line!"
 date: "2017-08-10"

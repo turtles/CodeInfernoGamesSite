@@ -16,13 +16,14 @@ const GamesPage = ({data}) => {
       <div style={ListStyle}>
       {
         games.map(({node: game})=> {
-          const {frontmatter} = game;
-
+          const {frontmatter, fields} = game;
           return (
             <GameListItem
+              key={frontmatter.title}
               thumbnail={frontmatter.thumbnail.childImageSharp.resolutions}
               title={frontmatter.title}
               subtitle={frontmatter.subtitle}
+              slug={fields.slug}
             />
           );
         })
@@ -43,8 +44,8 @@ query GamesQuery {
         frontmatter {
           thumbnail {
             childImageSharp {
-              resolutions(width: 480) {
-                ...GatsbyImageSharpResolutions
+              resolutions(width: 380, height: 290) {
+                ...GatsbyImageSharpResolutions_noBase64
               }
             }
           }
@@ -52,6 +53,10 @@ query GamesQuery {
           subtitle
           date
         }
+        fields {
+          slug
+        }
+        excerpt
       }
     }
   }

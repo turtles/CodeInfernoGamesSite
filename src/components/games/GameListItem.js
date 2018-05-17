@@ -13,15 +13,31 @@ const TitleStyle = {
   color: 'black'
 }
 
-export default ({title, subtitle, thumbnail}) => {
+const InnerTitleStyle = {
+  marginBottom: '0.4em'
+}
+
+const SubtitleStyle = {
+  marginBottom: '0.4em'
+}
+
+export default ({title, subtitle, thumbnail, slug}) => {
   return (
     <div style={ItemStyle}>
       <Img resolutions = {thumbnail} style={{margin:'0 0 1em 0'}} />
-      <Link to="/games"
+      <Link to={slug}
         style={TitleStyle}>
-        <h3>{title}</h3>
+        <h3 style={InnerTitleStyle}>{title}</h3>
       </Link>
-      <p>{subtitle}</p>
+      <p style={SubtitleStyle}>{subtitle}</p>
+      <div style={{display:'flex'}}>
+        <div style={{flexGrow: '1'}}>
+          <Link to={slug}>More Details</Link>
+        </div>
+        <div style={{flexGrow: '1'}}>
+          <Link to="/games">Play Now (Newgrounds)</Link>
+        </div>
+      </div>
     </div>
   );
 }

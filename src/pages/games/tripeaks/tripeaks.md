@@ -1,6 +1,6 @@
 ---
 path: "/tripeaks"
-thumbnail: "./thumb.png"
+thumbnail: "./screenshot.png"
 title: "TriPeaks+"
 subtitle: "Easy to learn and addictive TriPeaks solitaire!"
 date: "2017-08-10"

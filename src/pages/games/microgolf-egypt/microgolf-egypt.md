@@ -1,6 +1,6 @@
 ---
 path: "/microgolf-egypt"
-thumbnail: "./thumb.png"
+thumbnail: "./screenshot.png"
 title: "MicroGolf Egypt"
 subtitle: "3D Mini Golf set in Ancient Egypt with classic topdown game mechanics for up to two players."
 date: "2017-08-10"

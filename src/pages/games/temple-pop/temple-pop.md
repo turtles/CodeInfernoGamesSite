@@ -1,6 +1,6 @@
 ---
 path: "/temple-pop"
-thumbnail: "./thumb.png"
+thumbnail: "./screenshot.png"
 title: "Temple Pop"
 subtitle: "Aim, shoot and match orbs in a mysterious ancient temple."
 date: "2017-08-10"

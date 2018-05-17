@@ -1,6 +1,6 @@
 ---
 path: "/cube-clicks"
-thumbnail: "./thumb.png"
+thumbnail: "./screenshot.png"
 title: "Cube Clicks"
 subtitle: "Shatter glassy 3d shapes with clicks!"
 date: "2017-08-10"

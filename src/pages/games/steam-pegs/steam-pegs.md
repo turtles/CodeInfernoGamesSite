@@ -1,6 +1,6 @@
 ---
 path: "/steam-pegs"
-thumbnail: "./thumb.png"
+thumbnail: "./screenshot.png"
 title: "Steam Pegs"
 subtitle: "Set sails for the skies in this new Pachinko game!"
 date: "2017-08-10"

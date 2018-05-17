@@ -1,6 +1,6 @@
 ---
 path: "/breakaway"
-thumbnail: "./thumb.png"
+thumbnail: "./screenshot.png"
 title: "Breakaway"
 subtitle: "Break bricks in this arcade brick breaker featuring 100 levels!"
 date: "2017-08-10"
