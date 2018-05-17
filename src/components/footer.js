@@ -15,7 +15,7 @@ const Footer = () => (
       }}
     >
       <h6 style={{ margin: 0 }}>
-        (c) 2012-{new Date().getFullYear()}
+        &copy; 2012-{new Date().getFullYear()} Code Inferno Games
       </h6>
     </div>
   </div>

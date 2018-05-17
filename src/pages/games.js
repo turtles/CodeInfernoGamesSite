@@ -24,6 +24,9 @@ const GamesPage = ({data}) => {
               title={frontmatter.title}
               subtitle={frontmatter.subtitle}
               slug={fields.slug}
+              directLink={frontmatter.directLink}
+              site={frontmatter.site}
+              date={frontmatter.date}
             />
           );
         })
@@ -52,11 +55,12 @@ query GamesQuery {
           title
           subtitle
           date
+          directLink
+          site
         }
         fields {
           slug
         }
-        excerpt
       }
     }
   }
