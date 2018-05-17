@@ -9,11 +9,18 @@ const ItemStyle = {
   padding: '1em',
 }
 
+const TitleStyle = {
+  color: 'black'
+}
+
 export default ({title, subtitle, thumbnail}) => {
   return (
     <div style={ItemStyle}>
-      <Img resolutions = {thumbnail} />
-      <h3>{title}</h3>
+      <Img resolutions = {thumbnail} style={{margin:'0 0 1em 0'}} />
+      <Link to="/games"
+        style={TitleStyle}>
+        <h3>{title}</h3>
+      </Link>
       <p>{subtitle}</p>
     </div>
   );
