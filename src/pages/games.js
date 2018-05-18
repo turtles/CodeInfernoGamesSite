@@ -20,7 +20,7 @@ const GamesPage = ({data}) => {
           return (
             <GameListItem
               key={frontmatter.title}
-              thumbnail={frontmatter.thumbnail.childImageSharp.resolutions}
+              thumbnail={frontmatter.image1.childImageSharp.sizes}
               title={frontmatter.title}
               subtitle={frontmatter.subtitle}
               slug={fields.slug}
@@ -45,10 +45,10 @@ query GamesQuery {
     edges {
       node {
         frontmatter {
-          thumbnail {
+          image1 {
             childImageSharp {
-              resolutions(width: 380, height: 290) {
-                ...GatsbyImageSharpResolutions_noBase64
+              sizes(maxWidth: 800, maxHeight: 600, cropFocus: CENTER, quality: 80, toFormat: JPG) {
+                ...GatsbyImageSharpSizes
               }
             }
           }

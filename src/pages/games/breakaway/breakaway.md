@@ -1,6 +1,7 @@
 ---
 path: "/breakaway"
-thumbnail: "./screenshot.png"
+image1: "./screenshot.png"
+image2: "./screenshot2.png"
 title: "Breakaway"
 subtitle: "Break bricks in this arcade brick breaker featuring 100 levels!"
 directLink: "https://www.newgrounds.com/portal/view/662805"

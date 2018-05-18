@@ -28,7 +28,7 @@ export default ({title, subtitle, thumbnail, slug, date, directLink, site}) => {
   return (
     <div style={ItemStyle}>
       <Img
-        resolutions = {thumbnail}
+        sizes = {thumbnail}
         style={{margin:'0 0 1em 0'}}
         />
       <h6 style={DateStyle}>{date}</h6>

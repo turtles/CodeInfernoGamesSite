@@ -1,6 +1,7 @@
 ---
 path: "/temple-pop"
-thumbnail: "./screenshot.png"
+image1: "./screenshot.png"
+image2: "./screenshot2.png"
 title: "Temple Pop"
 subtitle: "Aim, shoot and match orbs in a mysterious ancient temple."
 directLink: "http://www.mindjolt.com/temple-pop.html"

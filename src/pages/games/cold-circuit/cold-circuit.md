@@ -1,6 +1,7 @@
 ---
 path: "/cold-circuit"
-thumbnail: "./screenshot.png"
+image1: "./screenshot.png"
+image2: "./screenshot2.jpg"
 title: "Cold Circuit"
 subtitle: "Infiltrate a rogue robotics research facility and shut it down!"
 directLink: "https://www.newgrounds.com/portal/view/688317"

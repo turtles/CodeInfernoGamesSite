@@ -1,6 +1,7 @@
 ---
 path: "/microgolf-egypt"
-thumbnail: "./screenshot.png"
+image1: "./screenshot.png"
+image2: "./screenshot2.png"
 title: "MicroGolf Egypt"
 subtitle: "3D Mini Golf set in Ancient Egypt with classic topdown game mechanics for up to two players."
 directLink: "https://www.newgrounds.com/portal/view/697551"
