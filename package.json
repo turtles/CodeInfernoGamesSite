@@ -1,8 +1,8 @@
 {
   "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "description": "Code Inferno Games",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Leah Sandacz",
   "dependencies": {
     "gatsby": "^1.9.247",
     "gatsby-image": "^1.0.51",
@@ -20,7 +20,11 @@
     "typography-theme-sutro": "^0.15.10"
   },
   "keywords": [
-    "gatsby"
+    "games",
+    "online",
+    "web",
+    "freeware",
+    "flash"
   ],
   "license": "MIT",
   "scripts": {
