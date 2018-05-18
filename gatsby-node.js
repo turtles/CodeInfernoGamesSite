@@ -5,9 +5,6 @@ exports.onCreateNode = ({ node, getNode, boundActionCreators }) => {
   const { createNodeField } = boundActionCreators
   if (node.internal.type === `MarkdownRemark`) {
     const slug = shortenSlug(createFilePath({ node, getNode, basePath: `games` }));
-    // let slug = filePath;
-    // let arr = slug.split('/');
-    // slug = `/games/${arr[arr.length-2]}/`;
 
     createNodeField({
       node,
