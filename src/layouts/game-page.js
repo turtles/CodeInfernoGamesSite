@@ -30,6 +30,27 @@ export const query = graphql`
       frontmatter {
         title
         date
+        image1 {
+          childImageSharp {
+            sizes(maxWidth: 800, maxHeight: 600, cropFocus: CENTER, quality: 80, toFormat: JPG) {
+              ...GatsbyImageSharpSizes
+            }
+          }
+        }
+        image2 {
+          childImageSharp {
+            sizes(maxWidth: 800, maxHeight: 600, cropFocus: CENTER, quality: 80, toFormat: JPG) {
+              ...GatsbyImageSharpSizes
+            }
+          }
+        }
+        image3 {
+          childImageSharp {
+            sizes(maxWidth: 800, maxHeight: 600, cropFocus: CENTER, quality: 80, toFormat: JPG) {
+              ...GatsbyImageSharpSizes
+            }
+          }
+        }
         directLink
         site
       }

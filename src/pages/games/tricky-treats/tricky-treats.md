@@ -1,6 +1,8 @@
 ---
 path: "/tricky-treats"
-thumbnail: "./screenshot.png"
+image1: "./screenshot.png"
+image2: "./screenshot.png"
+image3: "./screenshot.png"
 title: "Tricky Treats"
 subtitle: "Match 3 or more items in a row to clear the gravel off the board before the timer runs out. Beware the skulls, collect them by matching them or by letting them fall off the board."
 directLink: "https://www.newgrounds.com/portal/view/664871"

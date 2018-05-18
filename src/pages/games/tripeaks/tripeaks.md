@@ -1,6 +1,8 @@
 ---
 path: "/tripeaks"
-thumbnail: "./screenshot.png"
+image1: "./screenshot.png"
+image2: "./screenshot.png"
+image3: "./screenshot.png"
 title: "TriPeaks+"
 subtitle: "Easy to learn and addictive TriPeaks solitaire!"
 directLink: "http://www.mindjolt.com/tripeaks-plus.html"

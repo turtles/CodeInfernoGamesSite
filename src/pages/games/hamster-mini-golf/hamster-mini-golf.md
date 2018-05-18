@@ -1,6 +1,8 @@
 ---
 path: "/hamster-mini-golf"
-thumbnail: "./screenshot.png"
+image1: "./screenshot.png"
+image2: "./screenshot.png"
+image3: "./screenshot.png"
 title: "Hamster Mini Golf"
 subtitle: "Play mini golf with hamsters! Challenge a friend with two player mode! Featuring 11 different hamsters and three themed courses."
 directLink: "http://www.squiglysplayhouse.com/Games/Flash/Sports/HamsterMiniGolf2Player/"

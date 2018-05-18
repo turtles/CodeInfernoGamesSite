@@ -1,6 +1,8 @@
 ---
 path: "/pumpkin-archer"
-thumbnail: "./screenshot.png"
+image1: "./screenshot.png"
+image2: "./screenshot.png"
+image3: "./screenshot.png"
 title: "Pumpkin Archer"
 subtitle: "Use archery skills and throwing stars to smash pumpkins!"
 directLink: "https://www.newgrounds.com/portal/view/683015"

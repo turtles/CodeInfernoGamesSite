@@ -1,6 +1,8 @@
 ---
 path: "/rootbeer-slider-3d"
-thumbnail: "./screenshot.png"
+image1: "./screenshot.png"
+image2: "./screenshot.png"
+image3: "./screenshot.png"
 title: "Rootbeer Slider 3D"
 subtitle: "Slide rootbeer and collect all the stars before reaching the finish line!"
 directlink: "https://www.newgrounds.com/portal/view/699194"

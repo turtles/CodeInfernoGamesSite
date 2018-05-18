@@ -1,6 +1,8 @@
 ---
 path: "/steam-pegs"
-thumbnail: "./screenshot.png"
+image1: "./screenshot.png"
+image2: "./screenshot.png"
+image3: "./screenshot.png"
 title: "Steam Pegs"
 subtitle: "Set sails for the skies in this new Pachinko game!"
 directLink: "https://www.newgrounds.com/portal/view/661074"
