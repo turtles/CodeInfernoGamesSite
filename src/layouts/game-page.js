@@ -2,12 +2,9 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 
-<<<<<<< HEAD
-=======
 import Header from '../components/header'
 import Footer from '../components/footer'
 import ScreenshotPreviewer from '../components/ScreenshotPreviewer'
->>>>>>> 376ccd168890f3008ed4319c92df049d86ba6f30
 import './index.css'
 
 export default ({ data }) => {
