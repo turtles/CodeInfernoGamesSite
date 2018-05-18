@@ -1,8 +1,7 @@
 ---
 path: "/cube-clicks"
 image1: "./screenshot.png"
-image2: "./screenshot.png"
-image3: "./screenshot.png"
+image2: "./screenshot2.png"
 title: "Cube Clicks"
 subtitle: "Shatter glassy 3d shapes with clicks!"
 directLink: "http://www.mindjolt.com/cube-clicks.html"

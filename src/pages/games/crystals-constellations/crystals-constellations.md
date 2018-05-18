@@ -1,8 +1,7 @@
 ---
 path: "/crystals-constellations"
 image1: "./screenshot.png"
-image2: "./screenshot.png"
-image3: "./screenshot.png"
+image2: "./screenshot2.png"
 title: "Crystals Constellations"
 subtitle: "Draw lines through crystals and collect constellations for a cool challenge in this different kind of match 3 game!"
 directLink: "https://www.newgrounds.com/portal/view/675829"

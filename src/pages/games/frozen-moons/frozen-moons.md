@@ -1,8 +1,7 @@
 ---
 path: "/frozen-moons"
 image1: "./screenshot.png"
-image2: "./screenshot.png"
-image3: "./screenshot.png"
+image2: "./screenshot2.png"
 title: "Frozen Moons"
 subtitle: "Defend an arctic base on the frozen moon of Jupiter from an invasion of aliens that have laid dormant beneath its crust."
 directLink: "https://www.newgrounds.com/portal/view/676963"

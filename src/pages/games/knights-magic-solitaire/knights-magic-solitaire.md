@@ -1,8 +1,7 @@
 ---
 path: "/knights-magic-solitaire"
 image1: "./screenshot.png"
-image2: "./screenshot.png"
-image3: "./screenshot.png"
+image2: "./screenshot2.jpg"
 title: "Knights & Magic Solitaire"
 subtitle: "Addictive TriPeaks solitaire set in a medieval kingdom!"
 directLink: " http://www.mindjolt.com/knights-magic-solitaire.html"

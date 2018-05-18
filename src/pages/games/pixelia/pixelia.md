@@ -1,8 +1,7 @@
 ---
 path: "/pixelia"
 image1: "./screenshot.png"
-image2: "./screenshot.png"
-image3: "./screenshot.png"
+image2: "./screenshot2.png"
 title: "Pixelia"
 subtitle: "Abstract arcade shooter with original mechanics!"
 directLink: "https://www.newgrounds.com/portal/view/680889"

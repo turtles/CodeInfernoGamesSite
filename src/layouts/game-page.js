@@ -4,6 +4,7 @@ import Helmet from 'react-helmet'
 
 import Header from '../components/header'
 import Footer from '../components/footer'
+import ScreenshotPreviewer from '../components/ScreenshotPreviewer'
 import './index.css'
 
 export default ({ data }) => {
@@ -13,6 +14,10 @@ export default ({ data }) => {
     <div>
       <h6>Released on {frontmatter.date} (YMD)</h6>
       <h1>{frontmatter.title}</h1>
+      <ScreenshotPreviewer
+        image1={frontmatter.image1.sharp1.sizes}
+        image2={frontmatter.image2.sharp2.sizes}
+      />
       <div dangerouslySetInnerHTML={{ __html: post.html }} />
       <div>
         <a href={frontmatter.directLink} target="_blank" rel="noopener">
@@ -30,29 +35,22 @@ export const query = graphql`
       frontmatter {
         title
         date
+        directLink
+        site
         image1 {
-          childImageSharp {
-            sizes(maxWidth: 800, maxHeight: 600, cropFocus: CENTER, quality: 80, toFormat: JPG) {
+          sharp1: childImageSharp {
+            sizes(maxWidth: 400, maxHeight: 300, cropFocus: CENTER, quality: 80, toFormat: JPG) {
               ...GatsbyImageSharpSizes
             }
           }
         }
         image2 {
-          childImageSharp {
-            sizes(maxWidth: 800, maxHeight: 600, cropFocus: CENTER, quality: 80, toFormat: JPG) {
+          sharp2: childImageSharp {
+            sizes(maxWidth: 400, maxHeight: 300, cropFocus: CENTER, quality: 80, toFormat: JPG) {
               ...GatsbyImageSharpSizes
             }
           }
         }
-        image3 {
-          childImageSharp {
-            sizes(maxWidth: 800, maxHeight: 600, cropFocus: CENTER, quality: 80, toFormat: JPG) {
-              ...GatsbyImageSharpSizes
-            }
-          }
-        }
-        directLink
-        site
       }
     }
   }
